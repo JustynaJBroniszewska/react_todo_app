@@ -1,0 +1,71 @@
+/* App */
+.App {
+  text-align: center;
+}
+
+/* AddTaskForm  */
+.add-tasks-form {
+  padding-bottom: 1rem;
+  border-bottom: 1px dashed gray;
+}
+
+.form-group {
+  margin-bottom: .5rem;
+}
+
+label {
+  display: inline-block;
+  margin: .5rem;
+}
+
+/* TaskList */
+
+li {
+  margin: .5rem;
+}
+
+.text-mutted {
+  color: #6c757d;
+}
+
+/* Task */
+.btn-cancel {
+  color: #dc3545;
+  background-color: transparent;
+  border: 1px solid #dc3545;
+}
+
+.btn-cancel:hover {
+  color: #fff;
+  background-color: #dc3545;
+}
+
+.btn-confirm {
+  color: #6c757d;
+  background-color: transparent;
+  background-image: none;
+  border: 1px solid #6c757d;
+}
+
+.btn-confirm:hover {
+  color: #fff;
+  background-color: #6c757d;
+}
+
+.task-important {
+  color: #dc3545;
+  font-weight: bold;
+}
+
+/* Helpers */
+.btn {
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,
+    background-color .15s ease-in-out,
+    border-color .15s ease-in-out,
+    box-shadow .15s ease-in-out;
+}
+
+.mx {
+  margin: 0 1rem;
+}
